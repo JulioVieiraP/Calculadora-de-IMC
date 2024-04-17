@@ -1,0 +1,55 @@
+.Formulario{
+    max-width: 930px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.label {
+    margin: 8px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.input{
+    text-align: center;
+    height: 24px;
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}
+
+.input:focus{
+    box-shadow: 0 0 10px #1f5eaf;
+    outline: none;
+}
+
+.btn{
+    background-color: #1f5eaf;
+    color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #002a60;
+}
+
+@media (max-width: 731px){
+    .Formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .Formulario > *{
+        margin-bottom: 20px;
+    }
+    
+}

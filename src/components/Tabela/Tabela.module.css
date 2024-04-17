@@ -1,0 +1,38 @@
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tabela thead {
+    background-color: #f2f2f2;
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabela tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.tabela tbody tr.Sucesso {
+    background-color: green;
+}
+
+.resultado{
+    max-width: 300px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #1f5eaf;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
